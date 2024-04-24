@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="object_recognition" name="statemachine_localize" type="statemachine_localize.py"
+    output="screen">
+    </node>
+    <node pkg="object_recognition" name="fixed_tf_broadcaster" type="tf_broadcaster.py"
+    output="screen">
+    </node>
+</launch>

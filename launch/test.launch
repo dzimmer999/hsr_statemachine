@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="object_recognition" name="image_node" type="image_tests.py" output="screen">
+  </node>
+</launch>

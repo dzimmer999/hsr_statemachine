@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="object_recognition" name="statemachine_wo_loc" type="statemachine_wo_loc.py"
+    output="screen">
+    </node>
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="object_recognition" name="statemachine_take_picture" type="statemachine_take_picture.py"
+    output="screen">
+    </node>
+</launch>
